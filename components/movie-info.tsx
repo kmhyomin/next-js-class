@@ -1,4 +1,4 @@
-import { API_URL } from "../app/(home)/page";
+import { API_URL } from "@/app/constans";
 import styles from "@/app/styles/movieInfo.module.css";
 
 export async function getMovie(id: string) {
